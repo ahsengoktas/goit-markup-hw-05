@@ -49,6 +49,58 @@
           <button type="button" class="btn">
             <p class="btn-text">Order Service</p>
           </button>
+          <div class="modal is-open">
+            <form name="Contacts" class="modal-form">
+              <button class="btn-modal">
+                <svg class="btn-close">
+                  <use xlink href="./images/symbol-defsss.svg#icon-close-black-18dp-2-1">
+                  </use>
+                </svg>
+              </button>
+              <p class="modal-title">
+                Leave your contacts and we will call you back
+              </p>
+              <label for="name">
+                Name 
+                <div class="input-container">
+                <input type="text" name="Name"/>
+                <svg>
+                  <use xlink href="./images/symbol-defsss.svg#icon-person-black-18dp-1"/>
+                </svg>
+                </div>
+              </label>
+              <label>
+                Phone
+                <div class="input-container">
+                  <input type="tel" name="Phone"/>
+                  <svg>
+                    <use xlink href="./images/symbol-defsss.svg#icon-phone-black-18dp-1"/>
+                  </svg>
+                </div>
+              </label>
+              <label>
+                Email 
+                <div class="input-container">
+                  <input type="email" name="Email"/>
+                  <svg>
+                    <use xlink href="./images/symbol-defsss.svg#icon-email-black-18dp-1"/>
+                  </svg>
+                </div>
+              </label>
+              <label>
+                Comment
+                <textarea placeholder="Text input" class="comment-cont"></textarea>
+              </label>
+              <div class="check">
+              <label >
+                <input type="checkbox" name="checkbox"/>
+                <p>I accept the terms and conditions of the </p>
+                <span class="privacy">Privacy Policy</span>
+              </label>
+              </div>
+              <button type="submit" class="btn-send">Send</button>
+            </form>
+          </div>
         </section>
         <section>
           <ul class="values-list">
@@ -430,7 +482,22 @@
                 </li>
               </ul>
           </div>
-        
+          <div class="subscribe">
+            <label>
+              <p class="sub-text">Subscribe</p>
+              <div class="x">
+              <input type="text" name="email" placeholder="E-mail" class="sub-footer"/>
+            </label>
+            <div class="btn-sub">
+            <button type="submit" class="sub-footer-btn">
+              <p>Subscribe</p>
+              <svg class="sub-icon">
+              <use xlink href="./images/icon-send.svg#icon-icon-send"/>
+            </svg>
+            </button>
+            </div>
+            </div>
+            </div>
       </footer>
     </div>
   </body>

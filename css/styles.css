@@ -245,6 +245,7 @@ gap: 40px;
                                 }
                 .input-container{
                     position:relative;
+                    
                 }
                          .input-container>input {
                              width: 360px;
@@ -255,6 +256,17 @@ gap: 40px;
                              padding-left: 38px;
                              box-sizing: border-box;
                          }
+                         
+                .input-container > input:focus{
+                    border-color: rgba(77, 90, 229, 1);
+                   
+                }
+                .text-input:focus + .icon-container{
+                    fill:#4D5AE5;
+
+    }
+
+            
                 .input-container>svg {
                     position: absolute;
                     color: #2e2f42;
@@ -264,6 +276,7 @@ gap: 40px;
                     transform: translateY(-50%);
                     left: 16px;
                 }
+                
                 .comment-cont{
                     width: 360px;
                     height: 120px;
@@ -344,6 +357,7 @@ gap: 40px;
         align-items     : center;
         justify-content : center;
         margin-bottom   : 8px;
+        
     }
     .values-icon{
         width: 64px;

@@ -261,7 +261,8 @@ gap: 40px;
                     border-color: rgba(77, 90, 229, 1);
                    
                 }
-                .text-input:focus + .icon-container{
+                
+                .text-input:focus + svg{
                     fill:#4D5AE5;
 
     }
